@@ -1,0 +1,94 @@
+body {
+  background-color: #363645;
+  color:#00DDD7;
+}
+
+#header {
+  top: 0px;
+  position: fixed;
+}
+
+@media(max-width: 600px) {
+  #header {
+    flex-wrap:wrap;
+  }
+}
+main {
+  margin-top:4em;
+}
+h3 {
+  color:#B1DB00;
+  text-align: center;
+}
+p {
+  text-align:center;
+}
+hr {
+  border: .8px solid #B1DB00;
+  width: 50%;
+  margin-top:20px;
+}
+
+#header-img {
+  width: 150px;
+}
+#form input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding:5px;
+  margin: 0 0 0 50px; 
+}
+#form input[type="submit"] {
+  max-width: 150px;
+  width:100%;
+  margin: 15px 0 0 80px; 
+  border: 0px;
+  height: 30px;
+  background-color:#00DDD7;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:space-between;
+  text-decoration: none;
+
+}
+ul li a{
+  text-decoration: none;
+  margin-right: 5px;
+  color:#B1DB00;
+}
+
+#price {
+  display:flex;
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #94999D;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* Add some padding inside the card image details container */
+.img-details{
+  padding: 2px 16px;
+}
+.card img {
+  width:100%;
+}
+
+button {
+  background-color: #00DDD7;
+  width:100%;
+}
+
+#footer {
+  color:#B1DB00;
+  justify-content: flex-end;
+}
